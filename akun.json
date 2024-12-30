@@ -1,0 +1,22 @@
+[
+  {
+    "username": "example",
+    "password": "hashedpassword"
+  },
+  {
+    "username": "rerezz",
+    "password": "$2b$10$X/GlUxUspgzRmPKBFku2Eu.yfUhzMmm03njK9Ny6hQMlX49b0gwX6"
+  },
+  {
+    "username": "rerez",
+    "password": "$2b$10$8ZgBhwg3YZNIUN07mQaume0JsEUMIEKw.Do2E1wX5NWvVURKLlcuG"
+  },
+  {
+    "username": "rerezt",
+    "password": "$2b$10$ReTqM1jz3Iz9ZFVA5G1Z9.xmvO9cj3Sb5gtt.YXwdHGlX6QTdvgMW"
+  },
+  {
+    "username": "yy",
+    "password": "$2b$10$lPunpw2x3sEbQnoSMiaewOtwBd2XN/cA9/ZPJAXHdYhokxR5TMxNa"
+  }
+]
