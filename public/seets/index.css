@@ -1,0 +1,79 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#particles-js {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #282c34;
+    z-index: -1;
+}
+
+.content {
+    position: relative;
+    z-index: 10;
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+}
+
+h1 {
+    font-size: 2rem;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+p {
+    font-size: 1rem;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.auth-btns {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 10;
+}
+
+.auth-btns a {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-left: 5px;
+    font-size: 1rem;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    transition: background-color 0.3s ease;
+}
+
+.auth-btns a:hover {
+    background-color: #e05e52;
+}
+
+.user-count {
+    margin-top: 100px;
+    font-size: 1.5rem;
+    color: #fff;
+    background-color: rgba(204, 204, 204, 0.4);
+    padding: 20px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    border-radius: 10px; 
+    width: 250px;
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+.user-count p {
+    font-size: 1.2rem;
+}
