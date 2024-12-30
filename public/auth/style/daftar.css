@@ -1,0 +1,139 @@
+        /* Global Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            overflow: hidden;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: transparent; /* No background color needed, as particles.js will fill it */
+        }
+
+        /* Particles.js container */
+        #particles-js {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #282c34; /* Dark background */
+            z-index: -1; /* Ensures particles are behind the content */
+        }
+
+        /* Register Container */
+        .register-container {
+            width: 100%;
+            max-width: 450px;
+            padding: 10px;
+            z-index: 1; /* Ensures the register box is above the particles background */
+        }
+
+        .register-box {
+            background: #fff;
+            border-radius: 15px;
+            padding: 35px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            position: relative;
+        }
+
+        h1 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 20px;
+        }
+
+        /* Form Styles */
+        .form-group {
+            margin-bottom: 15px;
+            position: relative;
+        }
+
+        .form-group label {
+            display: flex;
+            align-items: center;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            padding: 10px;
+            background: #f9f9f9;
+            transition: border 0.3s, box-shadow 0.3s;
+        }
+
+        .form-group label:hover {
+            border: 1px solid #007bff;
+            box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+        }
+
+        .form-group label:focus-within {
+            border: 2px solid #0056b3;
+            box-shadow: 0 0 8px rgba(0, 86, 179, 0.8);
+            background: #fff;
+        }
+
+        .form-group label i {
+            margin-right: 10px;
+            color: #888;
+            transition: color 0.3s;
+        }
+
+        .form-group label:hover i,
+        .form-group label:focus-within i {
+            color: #007bff;
+        }
+
+        .form-group input {
+            border: none;
+            outline: none;
+            width: 100%;
+            background: none;
+            font-size: 15px;
+            color: #333;
+        }
+
+        .form-group input::placeholder {
+            color: #aaa;
+        }
+
+        /* Button */
+        .btn-register {
+            background: #007bff;
+            color: #fff;
+            font-size: 16px;
+            border: none;
+            border-radius: 10px;
+            padding: 10px;
+            width: 100%;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        .btn-register:hover {
+            background: #0056b3;
+        }
+
+        /* Form Footer */
+        .form-footer {
+            text-align: left;
+            margin: 30px 0 15px 0;
+        }
+
+        .form-footer a {
+            font-size: 17px;
+            color: #1e90ff;
+            text-decoration: none;
+        }
+
+        .form-footer a:hover {
+            text-decoration: underline;
+        }
