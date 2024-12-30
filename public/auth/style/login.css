@@ -26,15 +26,15 @@
             z-index: -1; /* Ensures particles are behind the content */
         }
 
-        /* Register Container */
-        .register-container {
+        /* Login Container */
+        .login-container {
             width: 100%;
             max-width: 450px;
             padding: 10px;
-            z-index: 1; /* Ensures the register box is above the particles background */
+            z-index: 1; /* Ensures the login box is above the particles background */
         }
 
-        .register-box {
+        .login-box {
             background: #fff;
             border-radius: 15px;
             padding: 35px;
@@ -105,21 +105,18 @@
             color: #aaa;
         }
 
-        /* Button */
-        .btn-register {
-            background: #007bff;
-            color: #fff;
-            font-size: 16px;
-            border: none;
-            border-radius: 10px;
-            padding: 10px;
-            width: 100%;
+        .form-group .toggle-password {
+            position: absolute;
+            right: 15px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #888;
             cursor: pointer;
-            transition: background 0.3s;
+            transition: color 0.3s;
         }
 
-        .btn-register:hover {
-            background: #0056b3;
+        .form-group .toggle-password:hover {
+            color: #007bff;
         }
 
         /* Form Footer */
@@ -136,4 +133,21 @@
 
         .form-footer a:hover {
             text-decoration: underline;
+        }
+
+        /* Button */
+        .btn-login {
+            background: #007bff;
+            color: #fff;
+            font-size: 16px;
+            border: none;
+            border-radius: 10px;
+            padding: 10px;
+            width: 100%;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        .btn-login:hover {
+            background: #0056b3;
         }
